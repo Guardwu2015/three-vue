@@ -5,6 +5,7 @@
 
 <script>
 import firstThree from 'examples/first-three/first-three';
+import looper from 'examples/modules/looper';
 
 export default {
   data () {
@@ -20,7 +21,9 @@ export default {
   created() {
   },
   mounted() {
-    
+    // firstThree.init()
+    // firstThree.animate()
+    looper.init()
   },
 }
 </script>
